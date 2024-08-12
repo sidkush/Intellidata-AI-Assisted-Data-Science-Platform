@@ -1,4 +1,4 @@
-# Intellidata-AI-Assisted-Data-Science-Platform
+# Intellidata: AI Assisted Data Science Platform
 
 ## Prerequisites
 
