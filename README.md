@@ -1,4 +1,5 @@
 # Intellidata: AI Assisted Data Science Platform
+![image](https://github.com/user-attachments/assets/60f9924a-8641-470a-8379-aa698869ec88)
 
 ## Prerequisites
 
@@ -46,21 +47,21 @@ This project addresses the need for an accessible, user-friendly tool that guide
 5. **Algorithm Selection**: Based on the problem, the app suggests suitable machine learning algorithms.
 6. **Code Generation**: The app can generate Python code to solve the defined problem using the selected algorithm.
 
-## Project Structure
-Intellidata-AI-Assisted-Data-Science-Platform
-│
-├── app.py # Main Streamlit application
-├── api_key.py # File containing OpenAI API key
-├── requirements.txt # Required libraries
-└── README.md # Project documentation
+## 📁 Project Structure
+
+- 📂 Intellidata-AI-Assisted-Data-Science-Platform
+  - 📄 `app.py` - Main Streamlit application
+  - 📄 `api_key.py` - File containing OpenAI API key
+  - 📄 `requirements.txt` - Required libraries
+  - 📄 `README.md` - Project documentation
 
 ## Key Features
 
-### 1. Interactive UI with Streamlit
+### 1. 🖥️ Interactive UI with Streamlit
 
 The application uses Streamlit to create an interactive web interface. Users can upload data, trigger analyses, and receive AI-generated insights through a user-friendly dashboard.
 
-### 2. AI-Powered Assistance
+### 2. 🤖 AI-Powered Assistance
 
 The app leverages OpenAI's language models to provide intelligent assistance throughout the data science process. It uses:
 
@@ -70,13 +71,13 @@ The app leverages OpenAI's language models to provide intelligent assistance thr
 
 ### 3. Workflow Stages
 
-#### a. Exploratory Data Analysis (EDA)
+#### a. 🔍 Exploratory Data Analysis (EDA)
 
 The EDA process includes:
 - Data overview (column meanings, missing values, duplicates)
 - Data summarization (outlier detection, feature suggestions)
 
-#### b. Targeted Data Analysis
+#### b. 🎯 Targeted Data Analysis
 
 Users can input specific variables for detailed analysis, including:
 - Summary statistics
@@ -84,18 +85,18 @@ Users can input specific variables for detailed analysis, including:
 - Outlier assessment
 - Trend analysis
 
-#### c. Data Science Problem Solving
+#### c. 🧠 Data Science Problem Solving
 
 The app guides users through:
 - Converting business problems to data science problems
 - Suggesting appropriate machine learning algorithms
 - Generating Python code for the selected algorithm
 
-### 4. Wikipedia Integration
+### 4. 📚 Wikipedia Integration
 
 The app uses the `WikipediaAPIWrapper` to fetch relevant information, enhancing the context for algorithm suggestions.
 
-### 5. Conversation Memory
+### 5. 💬 Conversation Memory
 
 The app maintains a conversation history, allowing for contextual interactions with the AI assistant.
 
@@ -109,7 +110,7 @@ This application solves the challenge of making data science accessible to users
 
 3. **Providing Contextual Information**: The app offers explanations and best practices at each step, educating users as they progress.
 
-4. **Generating Code**: For more advanced users, the app can generate Python code to implement solutions, bridging the gap between concept and implementation.
+4. 🛠️ **Generating Code**: For more advanced users, the app can generate Python code to implement solutions, bridging the gap between concept and implementation.
 
 ## Example Usage
 
